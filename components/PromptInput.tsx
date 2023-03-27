@@ -34,6 +34,7 @@ function PromptInput() {
       `DALL·E is creating: ${notificationPromptShort}...`
     );
 
+    //p is a prompt to send to API
     const p = useSuggestion
       ? suggestion
       : inputPrompt || (!isLoading && !isValidating && suggestion);
