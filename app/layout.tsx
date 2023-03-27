@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import PromptInput from "../components/PromptInput";
-// import ClientProvider from "../components/ClientProvider";
+import ClientProvider from "../components/ClientProvider";
 import "../styles/globals.css";
 
 export const metadata = {
@@ -16,13 +16,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {/* <ClientProvider> */}
-        <Header />
+        <ClientProvider>
+          <Header />
 
-        <PromptInput />
+          <PromptInput />
 
-        {children}
-        {/* </ClientProvider> */}
+          {children}
+        </ClientProvider>
       </body>
     </html>
   );
