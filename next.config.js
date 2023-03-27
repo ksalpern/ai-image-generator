@@ -6,10 +6,9 @@ module.exports = {
   },
   images: {
     domains: [
-      "sonnytestapp38d554.blob.core.windows.net",
-      // "links.papareact.com",
       "github.com",
-      "seeklogo.com"
+      "seeklogo.com",
+      "ksalpernaiimagegenccfc0d.blob.core.windows.net"
     ],
   },
 };
