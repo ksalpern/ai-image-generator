@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-// import PromptInput from "../components/PromptInput";
+import PromptInput from "../components/PromptInput";
 // import ClientProvider from "../components/ClientProvider";
 import "../styles/globals.css";
 
@@ -19,7 +19,7 @@ export default function RootLayout({
         {/* <ClientProvider> */}
         <Header />
 
-        {/* <PromptInput /> */}
+        <PromptInput />
 
         {children}
         {/* </ClientProvider> */}
