@@ -1,6 +1,6 @@
 # AI image generator
 
-Click [here](https://ai-image-generator-ksalpern.vercel.app/) to see the app!
+Click [here](https://ai-image-generator-ksalpern.vercel.app/) to see the app! Click [here](https://www.youtube.com/watch?v=a6kESfs-Mzs) how it works locally!
 
 ## What will I see in this build
 
